@@ -143,6 +143,7 @@ If the book document doesn't exist then return an HTTP status of 404 with a body
 Review APIs---------------------------------------------------------------------------------------------
 
 POST /books/:bookId/review------------------------------------
+
 Add a review for the book in reviews collection.
 
 Check if the bookId exists and is not deleted before adding the review. Send an error response with appropirate status code like this if the book does not exist
@@ -173,6 +174,7 @@ Update the books document - decrease review count by one
 
 
 Authentication--------------------------------------------------------------------------------
+
 Make sure all the book routes are protected.
 
 Authorisation---------------------------------------------------------------------------------
